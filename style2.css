@@ -1,0 +1,474 @@
+/*Created by Ashwini 3/4/2018*/
+
+ul >li{
+    font-size: 20px;
+}
+.carousel-caption{
+    padding-bottom: 60px;
+}
+h1{
+    #background: linear-gradient(to right,rgba(253, 246, 244, 0.5),rgba(255,255,255,0.5), rgba(253, 246, 244, 0.5)); /* Standard syntax (must be last) */
+    color:#1f76bd;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carousel-caption>h2{
+    color: #fda40c;
+    text-transform: uppercase;
+
+    background-color: rgba(0,0,0,0.7);
+
+}
+h4{
+    color: #1f76bd;
+}
+body{
+    font-style: normal;
+    font-family: Cambria;
+    color: gray;
+    line-height: 1.5;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+
+.page-header{
+    border-bottom: 5px solid #fdb642;
+}
+#about{
+    border-top: 5px solid #1f76bd;
+}
+#about>h2{
+    color: #fdb642;
+}
+.bg-grey{
+    padding: 50px 50px;
+    background-color: black;
+}
+.page-header{
+    margin-top: 80px;
+}
+#myCarousel{
+    border-bottom: 5px solid #1f76bd;
+}
+
+.carousel-inner>.item{
+    height: 95vh;
+}
+.carousel-inner>.item>img{
+    height: 100vh;
+    width: 100%;
+}
+.donate{
+    height: 40px;
+    border: 1px solid #1f76bd;
+    border-radius: 10px;
+    position: fixed;
+    top:90vh;
+    right: 0;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+    background-color: #1f76bd;
+}
+p{
+    text-indent: 20px;
+}
+p{
+    color: #1f76bd;
+    font-size: 18px;
+}
+h3{
+    color: #fda40c;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    padding: 30px;
+}
+
+
+
+.snf_logo{
+    margin: auto;
+}
+.navbar-default{
+    background-color: #fdb642;
+    #border-top: 5px solid #1f76bd;
+    border-bottom: 5px solid #1f76bd;
+}
+.navbar-nav>li{
+    font-weight: bolder;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #1f76bd;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    font-size: 25px;
+}
+
+.dropdown-menu>li>a:hover{
+
+    background-color: #fdb642;
+}
+.heading{
+    margin-top: 40px;
+}
+.about_read{
+    #align-items: center;
+    margin-left: 35%;
+}
+.panel-default>.panel-heading{
+    background-color: #fdb642;
+    color: #1f76bd;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.supporter_img{
+    height: 150px;
+    #width: 150px;
+}
+
+.success_div{
+    padding: 40px 100px;
+    border-left: 10px solid #fda40c;
+    border-right: 10px solid #fda40c;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+.success_div p{
+    font-size: 20px;
+    color: #fda40c;
+}
+.story-div{
+    padding: 10px 0px;
+    border-bottom: 2px solid #fda40c;
+}
+.stories>img{
+    #width: 300px;
+    height: 200px;
+    border-left: 10px solid #fda40c;
+    border-right: 10px solid #fda40c;
+}
+.stories_button{
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #1f76bd;
+    border-radius: 10px;
+}
+.project_info{
+    background-color: #00000012;
+}
+.story-div>.project_info{
+    border-right: 5px solid;
+
+}
+.project_info>h4{
+    font-size: 25px;
+    color: #fda40c;
+    text-align: center;
+    font-weight: bold;
+    #text-shadow: 3px 3px 10px;
+}
+
+/*footer style--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------*/
+.social_media{
+    width: 30px;
+    height: 30px;
+}
+.social_icon{
+    margin: 10px;
+}
+.glyphicon{
+    font-size: 30px;
+}
+.contact_ul li,.social_ul li{
+    list-style-type: none;
+    color: #1f76bd;
+    display:block;
+}
+.footer{
+    padding: 30px;
+    border-top: 5px solid #1f76bd;
+}
+.footer-ul>li>a:hover{
+    font-size: 25px;
+    color: #fda40c;
+}
+
+/* what we do page style-------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------*/
+.ongoing_project{
+    border-top: 15px solid #1f76bd;
+}
+
+.project_ul li>a{
+    font-weight: bold;
+}
+.nav-tabs>li.active>a{
+    #border: none;
+}
+
+
+/*---------------------------------------------------------our_work page style-----------------------------------------------------------
+------------------------------------------------------ */
+.nav-side{
+    border-bottom: 5px solid #1f76bd;
+}
+._info_side{
+    padding: 0 2vh 2vh;
+}
+.info_h2{
+    text-decoration: underline #1f76bd;
+    text-decoration-style: dotted;
+}
+h2{
+    #text-decoration: underline;
+    color: #fda40c;
+    margin: 0 0 40px 0;
+    #text-shadow: 3px 3px 2px dimgrey;
+    font-weight: bold;
+}
+.nav-side>li>a:focus, .nav>li>a:hover,.current_tab{
+    background-color: #fdb642;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.thumbnail {
+    #padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail>img{
+    width: 330px;
+    height:270px;
+    border: 2px solid #1f76bd;
+    box-shadow: 5px 5px 15px gray;
+
+}
+.project_div{
+    margin-top: 50px;
+}
+.water_project,.education_project,.orphanage_project,
+.health_project,.sport_project,.shahid_javan_project,.environmental_project{
+    display: none;
+}
+
+/*-------------------------------------------------------------------next work page style----------------------------------------------------------------
+------------------------------------------------------*/
+
+.work_list{
+    margin-top: 50px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------*/
+.team-img-div,.mentor-img-div,.NRI-img-div,.state-img-div,.founder-img{
+    height: 195px;
+    margin-bottom: 10vh;
+    #border: 1px solid;
+    box-sizing: border-box;
+}
+.team-img-div>img,.mentor-img-div>img,.NRI-img-div>img,.state-img-div>img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.team_member_div{
+    margin-top: 50px;
+    #border-top: 5px solid #1f76bd;
+}
+.team_nav{
+    position: relative;
+    #left: 25%;
+}
+.vision_mission_div>.left-div{
+    border-right: 10px solid #fdb642;
+}
+.vision_mission_div{
+    background-color: lightgray;
+    margin: 0;
+    border-top: 5px solid #1f76bd;
+}
+.team-div,.NRI-div,.state-div,.mentor-div{
+    display: none;
+}
+.team_member_div>h4{
+    display: inline;!important;
+}
+ /*------------------------------------------------------------------------News/media page style-----------------------------------------------------------------
+ --------------------------------------------------------------------------------------------
+  */
+.news{
+    margin-bottom: 40px;
+}
+.award_description{
+    position: absolute;
+    top:10px;
+    padding: 30px;
+    visibility: hidden;
+    z-index: 3;
+    color: black;
+}
+
+.news_media_div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.news>div>img:hover,.blog>div>img:hover,.award>div>img:hover{
+    opacity: 0.4;
+    border: 10px solid #1f76bd;
+    background-color: #1f76bd;
+
+}
+.news>div>img,.blog>div>img,.award>div>img{
+    border: 1px solid #1f76bd;
+
+
+}
+.news>div,.blog>div,.award>div{
+
+    /*box-sizing: border-box;*/
+    /*#width: 270px;*/
+    /*#margin: 10px;*/
+}
+.news_img,.blog_img,.award_img{
+    height: 82vh;
+    width: 100%;
+}
+.video{
+    height: 350px;
+    width: 560px;
+    border: 1px solid;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.paragraph{
+
+
+
+}
+.modal-content{
+    #width: 50vw;
+    height: 100vh;
+}
+
+
+
+/**----------------------------------------- contact page style ----------------------------------------**/
+
+.form_map {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.donate_now{
+    background-color: #1f76bd;
+    height: 40px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+/**----------------------------------- donate page style -----------------------------------------------------------------
+--------------------------------------------------------------
+ */
+.btn{
+    background-color: #1f76bd;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    #border: 1px solid #1f76bd;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background-color: #fdb642;
+    color: white;
+}
+.donate_option_ul>li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+    #margin-left: 100px;
+}
+/*.marathi_button{*/
+    /*background-color: #1f76bd;*/
+    /*color: white;*/
+    /*font-weight: bold;*/
+    /*border-radius: 10px;*/
+/*}*/
+p{
+    color: gray;
+}
+span{
+    color: #1f76bd;
+}
+tr td{
+    font-weight: bold;
+    font-size: 18px;
+}
+.donation_img{
+    margin-top: 40px;
+}
+.button500,.button1000,.button1500,.button2000,.buttoncustom{
+    display: none;
+}
+/*-----------------------------------------------------------------------------------------------------------------
+---------------------------------- Media Query-------------------------------------------------------*/
+
+@media screen and (max-width: 812px) {
+    .carousel-caption{
+        padding-bottom: 0;
+    }
+    .carousel-caption>h2{
+        font-size: 10px;
+
+    }
+    .carousel-caption>h1{
+        font-size: 20px;
+    }
+    .success_div{
+        padding: 10px;
+        margin: 20px;
+    }
+    .team-img-div,.NRI-img-div,.mentor-img-div,.state-img-div{
+        height: 210px;
+        width: 180px;
+        margin-bottom: 75px;
+    }
+    .donate{
+        font-size: 14px;
+        width: 110px;
+    }
+    .modal-content {
+        width: 100%;
+        height: 95%;
+    }
+    .bg-grey{
+        padding: 10px 10px;
+    }
+    .upcoming_work_div{
+        margin: 10px;
+    }
+    .news_img, .blog_img, .award_img {
+        height: 75%;
+        width: 100%;
+    }
+
+    .carousel-inner>.item>img {
+        height: auto;
+    }
+    .carousel-inner>.item{
+        height: auto;
+    }
+
+}         /* small screen device style/*
+
